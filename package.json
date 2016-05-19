@@ -1,14 +1,14 @@
 {
   "name": "html-check",
   "version": "0.0.1",
-  "description": "check edm format and autocomplete",
+  "description": "根据提供的规则检测html文件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhangsanshi/edm-check.git"
+    "url": "git+https://github.com/zhangsanshi/html-check.git"
   },
   "keywords": [
     "edm"
@@ -16,9 +16,9 @@
   "author": "zhangsanshi5566@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhangsanshi/edm-check/issues"
+    "url": "https://github.com/zhangsanshi/html-check/issues"
   },
-  "homepage": "https://github.com/zhangsanshi/edm-check#readme",
+  "homepage": "https://github.com/zhangsanshi/html-check#readme",
   "dependencies": {
     "bufferhelper": "^0.2.1",
     "cheerio": "^0.20.0",
