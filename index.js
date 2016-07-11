@@ -74,6 +74,7 @@ function check (ops) {
                     if ($child.hasClass('check-ignore')) {
                         $child.removeClass('check-ignore');
                     } else {
+                        rule.base = rules.base;
                         parse($child, root, collectError, rule);
                     }
                 } else {
