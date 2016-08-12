@@ -75,7 +75,7 @@ function check (ops) {
                         $child.removeClass('check-ignore');
                     } else {
                         rule.base = rules.base;
-                        parse($child, root, collectError, rule);
+                        parse($child, root, collectError, rule, ops);
                     }
                 } else {
                     // 不需要处理的元素
